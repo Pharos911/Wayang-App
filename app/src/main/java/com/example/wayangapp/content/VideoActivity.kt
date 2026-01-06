@@ -21,7 +21,7 @@ class VideoActivity : AppCompatActivity() {
         val mediaController = android.widget.MediaController(this)
         mediaController.setAnchorView(binding.videoView1)
 
-        val offlineUri: Uri = Uri.parse("android.resource://$packageName/${R.raw.wayang}")
+        val offlineUri: Uri = Uri.parse("android.resource://$packageName/${R.raw.Wayang}")
 
         binding.apply {
             videoView1.setMediaController(mediaController)
